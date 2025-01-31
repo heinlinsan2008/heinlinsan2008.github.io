@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    color: red;
+}
+small{
+    display: block;
+    color: green;
+    font-size: 30px;
+}
