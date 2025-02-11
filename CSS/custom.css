@@ -5,7 +5,7 @@
 }
 /* tag/ element selector */
 h1{
-    color: green;
+    color: rgb(255, 0, 0);
     text-align: center;
 }
 /* attribute selector */
@@ -56,7 +56,144 @@ a:visited{
 :target{
     color: red;
     border: 2px solid black;
+}
+/* border */
+.borderOne{
+    border: 20px solid red;
+}
+.borderTwo{
+    border-left: 10px solid red;
+}
+.bordersizeOne{
+    border-style: solid;
+    /* border-width: 10px; */
+    /* T R B L */
+    /* border-width: 10px 100px; */
+    /* T&B/L&R */
+    /* border-width: 10px 50px 100px; */
+    /* T/L&R/B */
+    border-width: 1px 5px 10px 15px;
+    /* T R B L */
 
 }
+.borderstyle{
+    border-style: solid dashed double dotted;
+    border-color: red green;
+}
+/* margin (can use nagative value)*/
+.margin{
+    border: solid;
+    /* margin: 100px; */
+    margin: 50px 20px;
+    /* margin-left: 2000px; */
 
-/* border */
+}
+/* padding */
+.padding{
+    border: 1px solid red;
+    /* padding: 100px; */
+    /* padding-left: 100px; */
+    padding: 10px 50px 100px 200px;
+}
+.inline{
+    border: 1px solid;
+    width: 300px;
+    /* display: block; */
+    display: inline-block;
+}
+.block{
+    border: 2px solid black;
+    width: 300;
+    /* display: inline; */
+    display: inline-block;
+}
+/* float */
+.floatleft img{
+    width: 40%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.floatright img{
+    width: 40%;
+    float: right;
+}
+/* grid */
+.gridone div,.gridtwo div,.gridthree div,.gridfour div,.gridfive div,.gridsix div{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.gridone,.gridtwo,.gridthree,.gridfour,.gridfive,.gridsix{
+    display: grid;
+    grid-template-columns: auto 900px auto;
+}
+.gridtwo{
+   grid-column-gap: 50px;
+}
+.gridthree{
+    grid-row-gap: 30px;
+}
+.gridfour{
+    /* grid-gap: 50px; */
+    grid-column-gap: 20px;
+    grid-row-gap: 100px;
+}
+.columadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.rowadd{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+/* position */
+.relative_parent{
+    border: 1px solid red;
+    width: 1000px;
+    height: 500px;
+}
+.relative{
+    border: 2px solid green;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 150px
+}
+.absolute_parent{
+    border: 2px solid blue;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+.absolute{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+
+}
+.fixed{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+/* font */
+.onlinefont{
+    font-family: "Russo One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* offlinefont */
+@font-face {
+    font-family: "rubik";
+    src: url(Rubik_Bubbles/RubikBubbles-Regular.ttf);
+}
+.offlinefont{
+    font-family: "rubik";
+}
