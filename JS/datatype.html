@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataType</title>
+</head>
+<body>
+    <h1> Data Type Lesson</h1>
+
+    <script>
+        //string data type
+
+        //let name = "Hein Lin San";
+        //let name = 'Hein Lin San';
+        let name = `Hein Lin San`;
+        console.log("Name is " + name);
+        console.log("Name data type is " + typeof(name));
+
+        // numeric data type
+        let age = 16;
+        console.log("Age is " + age);
+        console.log("Age data type is " + typeof(age));
+
+        // boolen data type
+        let single = false;
+        console.log("Single is " + single);
+        console.log("Single data type is " + typeof(single));
+
+        // undefined
+        let myBaby;
+        console.log(myBaby);
+
+        // null
+        let son = null;
+        console.log(son);
+        console.log(typeof(null));
+
+        // Array
+        let arr = new Array('a','b','c','d',1,2,3,4,5);
+        console.log(arr);
+        console.log(arr[2]);
+
+        let studentLists = ['Rey','Kat','Clarize','Tayden','jimmy'];
+        console.log(studentLists);
+        console.log(studentLists[2]);
+
+        let employeeLists = ['Ko Ko','Mg Mg','Aye Aye',["U KO KO","U Mg Mg"]];
+        console.log(employeeLists);
+        console.log(employeeLists[3][0]);
+
+        // Object
+        let carInfo = {
+            carName : "Honda Fix",
+            color :['white','black'],
+            number : "8M-24479",
+            model : "crown"
+        }
+        console.log(carInfo);
+        console.log(carInfo.color[0]);
+        console.log(carInfo.carName);
+    
+
+
+
+    </script>
+    
+</body>
+</html>
