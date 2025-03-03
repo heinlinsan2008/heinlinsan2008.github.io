@@ -1,0 +1,190 @@
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('../images/aboutus\ hero\ img.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .welcome-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Story Section */
+  .story-section {
+    margin: 40px 0;
+  }
+  
+  .story-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .story-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .story-photo {
+    width: 20%;
+    border-radius: 10px;
+  }
+  
+  .story-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Offer Section */
+  .offer-section {
+    margin: 40px 0;
+  }
+  
+  .offer-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .offer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .offer-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .offer-item img {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .offer-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .offer-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Team Section */
+  .team-section {
+    margin: 40px 0;
+  }
+  
+  .team-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .team-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Footer Section */
+  /* footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  } */
+  
+  /* footer p {
+    margin: 5px 0;
+  }
+   */
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-section p {
+      font-size: 1.2rem;
+    }
+  
+    .story-content {
+      flex-direction: column;
+    }
+  
+    .story-photo {
+      width: 100%;
+    }
+  
+    .offer-grid, .team-grid {
+      grid-template-columns: 1fr;
+    }
+  }

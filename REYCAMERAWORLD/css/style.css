@@ -131,6 +131,10 @@
 .storenav a{
     color: white;
     text-decoration: none;
+}
+.aboutusnav a{
+    color: white;
+    text-decoration: none;
     margin-right: 50px;
 }
 
@@ -155,6 +159,9 @@
     color: #0c5078;
 }
 .storenav a:hover{
+    color: #0c5078;
+}
+.aboutusnav a:hover{
     color: #0c5078;
 }
 
