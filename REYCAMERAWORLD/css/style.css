@@ -331,3 +331,138 @@
     margin: 0;
     font-size: 14px;
 }
+
+
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .camera-type, .product {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns for medium screens */
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        grid-template-columns: repeat(2, auto); /* 2 columns for smaller screens */
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .brand img {
+        width: 150px;
+    }
+
+    .randc ul {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .search {
+        margin-left: 20px;
+    }
+
+    .searchTerm {
+        margin-left: 20px;
+    }
+
+    .camera-type, .product {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+        margin: 0 20px;
+    }
+
+    .nav2 {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .navhome {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        text-align: center;
+    }
+
+    .brand img {
+        margin: 0 auto;
+    }
+
+    .randc ul {
+        grid-template-columns: repeat(2, auto); /* 2 buttons per row */
+        gap: 5px;
+    }
+
+    .search {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .searchTerm {
+        margin-left: 0;
+    }
+
+    .camera-type, .product {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller tablets */
+        margin: 0 10px;
+    }
+
+    .camera-type-title {
+        margin: 0 20px;
+        font-size: 1.5em;
+    }
+
+    .navhome {
+        gap: 10px;
+    }
+
+    .nav2 {
+        height: auto;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .randc ul {
+        grid-template-columns: 1fr; /* 1 button per row */
+    }
+
+    .camera-type, .product {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+        margin: 0 10px;
+    }
+
+    .camera-type-title {
+        font-size: 1.2em;
+        padding: 30px 0 10px 0;
+    }
+
+    .navhome {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .nav2 {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .footer-section {
+        min-width: 100%;
+    }
+}
