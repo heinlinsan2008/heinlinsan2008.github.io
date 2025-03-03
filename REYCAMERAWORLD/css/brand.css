@@ -1,0 +1,74 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  } */
+  
+  .container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+  }
+  
+  .category {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .category h2 {
+    margin-top: 0;
+    color: #555;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .brands {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 15px;
+  }
+  
+  .brand-camera {
+    text-align: center;
+    flex: 1 1 calc(20% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .brand-camera img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brand- p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #666;
+  }
+
+  .brand-camera a{
+    text-decoration: none;
+    color: black;
+  }
+  .brand-camera a:hover{
+    text-decoration: underline;
+    color: #0c5078;
+  }

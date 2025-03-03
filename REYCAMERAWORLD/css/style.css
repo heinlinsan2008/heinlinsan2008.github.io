@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Navbar */
+.navbar{
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    align-items: center;
+    background-color: #0c5078;
+    width: 100%;
+    height: 120px;
+    
+}
+.brand img{
+    width: 200px;
+    margin: 0 0 0 15px;
+}
+.randc ul{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: end;
+    gap: 10px;
+    margin: 0 15px 0 0;
+    
+    
+}
+.randc ul li{
+    list-style-type: none;
+}
+.randc ul li a{
+    text-decoration: none;
+}
+.randc ul li a button{
+    color: white;
+    background-color: #003759;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0 solid white;
+
+}
+.randc ul li a button:hover{
+    background-color: #1c84be;
+    cursor: pointer;
+}
+
+/* search  */
+.search{
+    /* position: relative; */
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}.searchTerm{
+    width: 100%;
+    border: 3px solid #ffffff;
+    border-right: none;
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: white;
+    margin-left: 80px;
+}
+
+.searchTerm:focus{
+    color: #000000;
+}
+
+.searchButton{
+    height: 40px;
+    border: 1px solid #f08223;
+    width: 40px;
+    background-color: #f08223;
+    color: white;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* .wrap{
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* nav2 */
+.nav2{
+    display: flex;
+    justify-content: center;
+    background-color: #f08223;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+.navhome{
+    display: flex;
+    gap: 30px;
+    padding: 1px;
+    
+}
+.homenav a{
+    color: white;
+    text-decoration: none;
+}
+.camerasandlensnav a{
+    color: white;
+    text-decoration: none;
+}
+.accessoriesnav a{
+    color: white;
+    text-decoration: none;
+}
+.secondhanddeptnav a{
+    color: white;
+    text-decoration: none;
+}
+.brandnav a{
+    color: white;
+    text-decoration: none;
+}
+.ordernav a{
+    color: white;
+    text-decoration: none;
+    
+}
+.storenav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+
+/* hover */
+.homenav a:hover{
+    color: #0c5078;
+}
+.camerasandlensnav a:hover{
+    color: #0c5078;
+}
+.accessoriesnav a:hover{
+    color: #0c5078;
+}
+.secondhanddeptnav a:hover{
+    color: #0c5078;
+}
+.brandnav a:hover{
+    color: #0c5078;
+}
+.ordernav a:hover{
+    color: #0c5078;
+}
+.storenav a:hover{
+    color: #0c5078;
+}
+
+/* hero image */
+
+.hero-image{
+    width: 100%;
+}
+
+
+
+
+/* product */
+
+.camera-type-title{
+    font-size: 2em;
+    color: #808080;
+    /* text-align: center; */
+    padding: 50px 0 20px 0;
+    margin: 0 70px;
+
+}
+
+
+.camera-type{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 20px;
+    margin: 0 70px;
+}
+.camera-item{
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.item-img{
+    width: 100%;
+}
+.item-content{
+    padding: 10px;
+    text-align: center;
+}
+
+/* popular mirrorless camera */
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 20px;
+    margin: 0 70px;
+}
+.product-type{
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.product-image{
+    width: 100%;
+}
+.description{
+    color: #808080;
+    font-size: 15px;
+}
+.product-type h2{
+    color: #0c5078;
+    font-weight: bold;
+}
+.product-type a{
+    text-decoration: none;
+}
+.price{
+    color: #0c5078;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* .view-details{
+    background-color: #f08223;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0 solid #f08223;
+}
+.view-details a{
+    text-decoration: none;
+    color: #fff;
+} */
+.add-to-cart{
+    background-color: #f08223;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0 solid;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.product-type a:hover{
+    text-decoration: underline;
+    color: #0c5078;
+}
+.add-to-cart:hover{
+    background-color: #d6731c;
+}
+
+
+/* footer */
+
+.camera-shop-footer {
+    background-color: #0c5078;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #f08223;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
