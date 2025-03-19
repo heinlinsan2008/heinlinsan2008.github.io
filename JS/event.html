@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Lessons</h1>
+    <img src="photo_2024-12-30_00-00-36.jpg" alt=""  id="myImage"   width="300" onmouseover="big()" onmouseout="normal()" onclick="soBig()">
+    <br>
+    
+
+        <!-- onkeyup -->
+        <!-- onkeydown -->
+        <!-- onchange -->
+    <input type="text" id="myInput" onkeyup="showData()">
+    <p id="result"></p>
+    <script>
+    
+
+        // onmouseout
+        // onmouseenter
+
+        function big(){
+            document.getElementById('myImage').style.width = "500px";
+        }
+
+
+        // onmouseout
+        // onmouseleave
+
+        function normal(){
+            document.getElementById('myImage').style.width = "300px";
+        }
+
+
+        // onclick
+        
+        function soBig(){
+            document.getElementById('myImage').style.width = "800px";
+        }
+
+        // show data
+
+        function showData(){
+            let myInput = document.getElementById('myInput').value;
+            document.getElementById('result').innerText = myInput;
+        }
+
+
+    </script>
+</body>
+</html>
