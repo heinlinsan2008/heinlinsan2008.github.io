@@ -8,18 +8,80 @@
 </head>
 <body>
     
-    <h1 class="text-center text-danger my-5">Carousel Lessons</h1>
+    <h1 class="text-center text-danger my-5">Carousel Auto Lessons</h1>
     
     <div class="container">
-        <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item">
-                    <img src="images/1.jpg" alt="" class="img-fluid">
-                </div>
                 <div class="carousel-item active">
-                    <img src="images/2.jpg" alt="" class="img-fluid">
+                    <img src="images/1.jpg" alt="" class="img-fluid w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" alt="" class="img-fluid w-100">
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    
+    
+    
+    <h1 class="text-center text-danger my-5">Carousel Control Lessons</h1>
+    
+    <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel" id="Carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" alt="" class="img-fluid w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" alt="" class="img-fluid w-100">
+                </div>
+            </div>
+            
+            
+            <a href="#Carousel" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            
+            
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#Carousel">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+
+    <h1 class="text-center text-danger my-5">Carousel Indicater Lessons</h1>
+    
+    <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel" id="Carousel1">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" alt="" class="img-fluid w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" alt="" class="img-fluid w-100">
+                </div>
+            </div>
+
+
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#Carousel1" data-bs-slide-to="0"></button>
+                <button data-bs-target="#Carousel" data-bs-slide-to="1"></button>
+            </div>
+            
+            
+            <a href="#Carousel1" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            
+            
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#Carousel1">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
     </div>
 
